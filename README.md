@@ -17,3 +17,5 @@ windows powershellで**Python --version**と実行した結果(筆者の場合�
 「Python: Select Interpreter」と打ち込み、エンター<br>
 ![PythonSelect Interpreter-2](src/Python_Select_Interpreter-2.png)<br>
 表示されたpythonを選択<br>
+
+## 本プログラムの使い方
