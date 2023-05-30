@@ -12,7 +12,7 @@ windows powershellで**Python --version**と実行した結果(筆者の場合�
 [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)<br>
 [python用拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-python.python)<br>
 ダウンロード出来たら、Visual Studio Codeを起動しましょう。
-起動出来たら、Python 3 インタープリターを選択します。コマンド パレットを開き (**Ctrl + Shift + P**)、検索するコマンド「**Python: Select Interpreter**」の入力を開始して、コマンドを選択します。
+起動出来たら、Python 3 インタープリターを選択します。コマンド パレットを開き (**Ctrl + Shift + P**)、検索するコマンド「**Python: Select Interpreter**」の入力を開始して、コマンドを選択します。<br>
 ![PythonSelect Interpreter-1](src/PythonSelect Interpreter-1.png)<br>
 「Python: Select Interpreter」と打ち込み、エンター<br>
 ![PythonSelect Interpreter-2](src/PythonSelect Interpreter-2.png)<br>
