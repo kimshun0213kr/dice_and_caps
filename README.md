@@ -1,4 +1,4 @@
-# 使い方
+# 使い方(for Windows)
 ## pythonの開発環境の構築
 まずは以下のリンクより、python3をインストールしてください。<br>
 [python3.7のインストール](https://www.microsoft.com/p/python-37/9nj46sx7x90p?activetab=pivot:overviewtab)<br>
