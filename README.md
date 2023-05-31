@@ -27,7 +27,7 @@ windows powershellで**Python --version**と実行した結果(筆者の場合�
 visual studio codeを開いたら、先ほど展開したフォルダを開きましょう。<br>
 **Crl +K+ 0**でフォルダ選択のウィンドウを開き、先ほど展開したフォルダ（**ダウンロードしたzipでないことに注意**）を選択し、開いてください。<br>
 開けたら、ターミナルを開き（**Ctrl + Shift + @** ）ましょう。<br>
-ターミナルがpowershellであることを確認しましょう。もし異なった場合は、後述の章を参考にpowershellを起動してくださいくbr>
+ターミナルがpowershellであることを確認しましょう。もし異なった場合は、後述の章を参考にpowershellを起動してください<br>
 ![powershell kakunin](src/powershell_kakunin.png)<br>
 powershellであることが確認出来たら、以下のようにコマンドライン(PS C:\Users\○○\○○>の部分)に以下のように打ち込んで、Enertを押してください。<br>
 ```bash:pip
