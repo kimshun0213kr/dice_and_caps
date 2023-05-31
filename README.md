@@ -54,3 +54,11 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\sicp3\\Desktop\\生�
 このプログラムを実行する際は、必ずデータを記録するExcelファイルは閉じた状態で実行してください。
 
 ## powershell以外のターミナルが開いている場合
+![wrong_terminal_1.png](src/wrong_terminal_1.png)
+このように、powershell以外が開かれていた場合、以下の流れでpowershellを開くことができます。<br>
+![wrong_terminal_2.png](src/wrong_terminal_2.png)
+赤丸の部分を押し、<br>
+![wrong_terminal_3.png](src/wrong_terminal_3.png)
+powershellを選択<br>
+![wrong_terminal_4.png](src/wrong_terminal_4.png)
+とすると、powershellが選択されていることが分かります。
