@@ -19,3 +19,19 @@ windows powershellで**Python --version**と実行した結果(筆者の場合�
 表示されたpythonを選択<br>
 
 ## 本プログラムの使い方
+まずは以下のリンクから、このプログラム全体をダウンロードしてください。<br>
+[Download here](https://github.com/kimshuno213kr/dice_and_caps/archive/refs/heads/main.zip)<br>
+ダウンロード出来たら、エクスプローラーを開き、ダウンロードされたファイル(dice_and_caps-main.zip）を右クリックし、展開（解凍)しましょう。<br>
+展開先は任意の場所で構いませんが、覚えておくようにしてください。<br>
+展開が完了したら、Visual Studio Codeを開きましょう。<br>
+visual studio codeを開いたら、先ほど展開したフォルダを開きましょう。<br>
+**Crl +K+ 0**でフォルダ選択のウィンドウを開き、先ほど展開したフォルダ（**ダウンロードしたzipでないことに注意**）を選択し、開いてください。<br>
+開けたら、ターミナルを開き（**Ctrl + Shift + @** ）ましょう。<br>
+ターミナルがpowershellであることを確認しましょう。もし異なった場合は、後述の章を参考にpowershellを起動してくださいくbr>
+![powershell kakunin](src/powershell_kakunin.png)<br>
+powershellであることが確認出来たら、以下のようにコマンドライン(PS C:\Users\○○\○○>の部分)に以下のように打ち込んで、Enertを押してください。<br>
+```bash:pip
+pip install openpyxl
+```
+終了したらエクスプローラーを開き、演習でデータを記録するためにダウンロードしたExce1ファイルを選択し、PATHをコピー（右クリックから「パスのコビー」又は(** Ctrl + Shift ＋ C ** ）しておきましょう。<br>
+コピー―が出来たら、Pythonを実行します。
