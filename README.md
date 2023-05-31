@@ -60,5 +60,5 @@ PermissionError: [Errno 13] Permission denied: 'C:\\Users\\○○\\○○\\○�
 赤丸の部分を押し、<br>
 ![wrong_terminal_3.png](src/wrong_terminal_3.png)
 powershellを選択<br>
-![wrong_terminal_4.png](src/wrong_terminal_4.png)
+![wrong_terminal.png](src/wrong_terminal_4.png)
 とすると、powershellが選択されていることが分かります。
