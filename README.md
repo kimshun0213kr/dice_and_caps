@@ -34,7 +34,8 @@ powershellであることが確認出来たら、以下のようにコマンド�
 pip install openpyxl
 ```
 終了したらエクスプローラーを開き、演習でデータを記録するためにダウンロードしたExce1ファイルを選択し、PATHをコピー（右クリックから「パスのコビー」又は(**Ctrl + Shift ＋ C** ）しておきましょう。<br>
-コピー―が出来たら、Pythonを実行します。
+この際、Excelファイルを開いてしまった場合は必ず閉じるようにしてください。<br>
+コピー―が出来たら、Pythonを実行します。<br>
 コマンドラインに以下のように入力し、Enterを押します。
 ```bash
 python main.py
@@ -43,34 +44,13 @@ python main.py
 ![python_run_1.png](src/Run_python_1.png)<br>
 正しくペーストされていることを確認して、Enterを押します。すると、実行が再開されます。<br>
 以下のように表示されれば、実行が終了し、正しく保存されています。
-![run_python_2.png](src/Run_python_2.png)
-
-## エラーが発生した場合
+![run_python_2.png](src/Run_python_2.png)<br>
+<br>
 最も起こりえるエラー
-```python:main.py
-from random import randint as rd
-import datetime
-import dice100
-import mean_dice100
-import cap300
-import mean_cap300
-
-caps = []
-for a in range(24):
-    caps.append("1")
-for b in range(57):
-    caps.append("3")
-for c in range(19):
-    caps.append("2")
-
-tmp = input("Excelファイルのパスをそのままコピペしてください。>>")
-file_space = tmp.replace("\"","")
-
-dice100.dice100("Dice100",file_space)
-mean_dice100.mean_dice100("Mean_Dice100",file_space)
-cap300.cap300("Cap300",file_space,caps)
-mean_cap300.mean_cap300("Mean_Cap300",file_space,caps)
-
-print(file_space+"に正しくデータが保存されました。")
-print(datetime.datetime.now())
+```bash
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\sicp3\\Desktop\\生命科学演習\\22RB035ShunsukeKimura.xlsx'
 ```
+が発生した場合は、Excelファイルを開いたまま実行していることが考えられます。<br>
+このプログラムを実行する際は、必ずデータを記録するExcelファイルは閉じた状態で実行してください。
+
+## powershell以外のターミナルが開いている場合
