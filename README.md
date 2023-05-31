@@ -1,4 +1,6 @@
-# 使い方(for Windows)
+# 説明&使い方(for Windows)
+## What's this?
+サイコロを振った結果、キャップを投げた結果を生成し、自動でエクセルに保存するプログラムです。
 ## pythonの開発環境の構築
 まずは以下のリンクより、python3をインストールしてください。<br>
 [python3.7のインストール](https://www.microsoft.com/p/python-37/9nj46sx7x90p?activetab=pivot:overviewtab)<br>
