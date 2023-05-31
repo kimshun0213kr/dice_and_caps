@@ -48,7 +48,7 @@ python main.py
 <br>
 最も起こりえるエラー
 ```bash
-PermissionError: [Errno 13] Permission denied: 'C:\\Users\\sicp3\\Desktop\\生命科学演習\\22RB035ShunsukeKimura.xlsx'
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\○○\\○○\\22RB035ShunsukeKimura.xlsx'
 ```
 が発生した場合は、Excelファイルを開いたまま実行していることが考えられます。<br>
 このプログラムを実行する際は、必ずデータを記録するExcelファイルは閉じた状態で実行してください。
