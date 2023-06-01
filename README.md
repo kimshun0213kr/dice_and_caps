@@ -27,7 +27,7 @@ windows powershellで**Python --version**と実行した結果(筆者の場合�
 展開先は任意の場所で構いませんが、覚えておくようにしてください。<br>
 展開が完了したら、Visual Studio Codeを開きましょう。<br>
 visual studio codeを開いたら、先ほど展開したフォルダを開きましょう。<br>
-**Crl +K+ 0**でフォルダ選択のウィンドウを開き、先ほど展開したフォルダ（**ダウンロードしたzipでないことに注意**）を選択し、開いてください。<br>
+**Crl +K+ O**でフォルダ選択のウィンドウを開き、先ほど展開したフォルダ（**ダウンロードしたzipでないことに注意**）を選択し、開いてください。<br>
 開けたら、ターミナルを開き（**Ctrl + Shift + @** ）ましょう。<br>
 ターミナルがpowershellであることを確認しましょう。もし異なった場合は、後述の章を参考にpowershellを起動してください<br>
 ![powershell kakunin](src/powershell_kakunin.png)<br>
@@ -35,7 +35,7 @@ powershellであることが確認出来たら、以下のようにコマンド�
 ```bash:pip
 pip install openpyxl
 ```
-終了したらエクスプローラーを開き、演習でデータを記録するためにダウンロードしたExce1ファイルを選択し、PATHをコピー（右クリックから「パスのコビー」又は(**Ctrl + Shift ＋ C** ）しておきましょう。<br>
+終了したらエクスプローラーを開き、演習でデータを記録するためにダウンロードしたExcelファイルを選択し、PATHをコピー（右クリックから「パスのコビー」又は(**Ctrl + Shift ＋ C** ）しておきましょう。<br>
 この際、Excelファイルを開いてしまった場合は必ず閉じるようにしてください。<br>
 コピー―が出来たら、Pythonを実行します。<br>
 コマンドラインに以下のように入力し、Enterを押します。
@@ -48,7 +48,7 @@ python main.py
 以下のように表示されれば、実行が終了し、正しく保存されています。
 ![run_python_2.png](src/Run_python_2.png)<br>
 <br>
-最も起こりえるエラー
+エラー
 ```bash
 PermissionError: [Errno 13] Permission denied: 'C:\\Users\\○○\\○○\\○○.xlsx'
 ```
